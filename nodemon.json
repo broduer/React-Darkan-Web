@@ -6,6 +6,7 @@
     "server.js",
     "next-server.js",
     "app/",
+    "pages/",
     "types/",
     "lib/",
     "helpers/",
