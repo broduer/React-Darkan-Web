@@ -85,25 +85,6 @@ html {
   overflow-y: scroll;
 }
 
-#background404 {
-  width: 100%;
-}
-
-#centered404 {
-  width: 70vw;
-  height: 53.7vh;
-  position: absolute;
-  left: 50%;
-  transform: translateX(-50%);
-}
-
-#centered404 img {
-  width: 70vw;
-  position: absolute;
-  left: 50%;
-  transform: translateX(-50%);
-}
-
 body {
   font-weight: normal;
   font-size: 12px;
@@ -4185,7 +4166,7 @@ div.PageControlAdvancedLeft .PageControlAdvancedLast {
 .OrnamentalBox {
   position: relative;
   overflow: hidden;
-  *padding-bottom: 89px;
+  /* *padding-bottom: 89px; */
 }
 
 .OrnamentalBoxTop,
@@ -4201,7 +4182,7 @@ div.PageControlAdvancedLeft .PageControlAdvancedLast {
 .OrnamentalBoxBg {
   position: relative;
   top: 0;
-  *top: 89px;
+  /* *top: 89px; */
   width: 100%;
   margin: 89px 0 44px;
   padding: 1px 0 0;
@@ -4488,12 +4469,12 @@ div.PageControlAdvancedLeft .PageControlAdvancedLast {
 .RaggedBoxContent {
   position: relative;
   top: 60px;
-  *top: -30px;
+  /* *top: -30px; */
   margin-top: -86px;
-  *margin-top: 0;
+  /* *margin-top: 0; */
   z-index: 3;
   padding: 0 16px 0 14px;
-  *overflow: hidden;
+  /* *overflow: hidden; */
 }
 
 .RaggedBoxContent {
@@ -5761,7 +5742,7 @@ table.stripeTable tr.odd td {
   display: inline-block;
   vertical-align: middle;
   zoom: 1;
-  *display: inline;
+  /* *display: inline; */
 }
 
 .Dropdown .Beg {
