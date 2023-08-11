@@ -1,4 +1,3 @@
-import "../styles/global-68.css";
 export default function Footer() {
   return (
     <div id="Footer" className="Kingthings">

@@ -1,4 +1,4 @@
-import "../styles/global-68.css";
+import styles from "../components/styles/404.css";
 import Image from "next/image";
 
 export default function Custom404() {

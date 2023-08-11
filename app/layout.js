@@ -1,4 +1,3 @@
-import "../styles/globals.css";
 import { Inter } from "next/font/google";
 
 const inter = Inter({ subsets: ["latin"] });
@@ -10,8 +9,87 @@ export const metadata = {
 
 export default function RootLayout({ children }) {
   return (
-    <html lang="en">
-      <body className={inter.className}>{children}</body>
+    <html
+      lang="en"
+      class="js flexbox canvas canvastext webgl no-touch geolocation postmessage websqldatabase no-indexeddb hashchange history draganddrop
+    websockets rgba hsla multiplebgs backgroundsize borderimage borderradius boxshadow textshadow opacity cssanimations csscolumns
+    cssgradients cssreflections csstransforms csstransforms3d csstransitions fontface video audio localstorage sessionstorage webworkers
+    no-applicationcache svg inlinesvg smil svgclippaths"
+    >
+      <head>
+        <meta name="viewport" content="width=device-width" />
+        <link href="/styles/fonts.css" rel="stylesheet" />
+        <link
+          async
+          type="text/css"
+          rel="stylesheet"
+          href="/styles/jquery_jscrollpane_css_2_0_0b11-0.css"
+        />
+        <link async href="/styles/global-68.css" rel="stylesheet" />
+        <link
+          async
+          rel="stylesheet"
+          type="text/css"
+          href="/styles/shadowbox-0.css"
+        />
+        <script
+          defer
+          type="text/javascript"
+          src="/javascripts/jquery.min.js"
+        ></script>
+        <script
+          defer
+          type="text/javascript"
+          src="/javascripts/modernizr_1_7_min.js"
+        ></script>
+        <script
+          defer
+          type="text/javascript"
+          src="/javascripts/jquery_placeholder_1_3.js"
+        ></script>
+        <script
+          defer
+          type="text/javascript"
+          src="/javascripts/jquery_mousewheel_3_0_6.js"
+        ></script>
+        <script
+          defer
+          type="text/javascript"
+          src="/javascripts/jquery_jscrollpane_min_2_0_0b11-0.js"
+        ></script>
+        <script defer src="/javascripts/global-58.js"></script>
+        <title>Darkan - MMORPG</title>
+        <meta
+          name="keywords"
+          content="MMORPG, Darkan, rpg, mmo, RuneScape, Jagex, java"
+        />
+        <meta
+          name="description"
+          content="A Runescape remake written in pure Java. Experience the fun of Runescape in 2012!"
+        />
+        <link
+          async
+          rel="icon"
+          type="image/vnd.microsoft.icon"
+          href="https://raw.githubusercontent.com/JesseGuerrero/web-files-darkan/master/favicon.ico"
+        />
+        <link
+          async
+          rel="SHORTCUT ICON"
+          href="https://raw.githubusercontent.com/JesseGuerrero/web-files-darkan/master/favicon.ico"
+        />
+        <script
+          defer
+          type="text/javascript"
+          src="/javascripts/jquery_elide_1_4.js"
+        ></script>
+        <script
+          defer
+          type="text/javascript"
+          src="/javascripts/jagex_form-4.js"
+        ></script>
+      </head>
+      <body>{children}</body>
     </html>
   );
 }

@@ -1,5 +1,3 @@
-import "../styles/global-68.css";
-
 export default function Header() {
   let playerCount = 37;
   return (

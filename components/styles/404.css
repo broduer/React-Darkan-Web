@@ -1,0 +1,28 @@
+#background404 {
+  width: 100%;
+}
+
+#centered404 {
+  width: 70vw;
+  height: 53.7vh;
+  position: absolute;
+  left: 50%;
+  transform: translateX(-50%);
+}
+
+#centered404 img {
+  width: 70vw;
+  position: absolute;
+  left: 50%;
+  transform: translateX(-50%);
+}
+
+body {
+  font-weight: normal;
+  font-size: 12px;
+  line-height: 1.9em;
+  font-family: MuseoSans500, Arial, Times New Roman, serif;
+  background: black;
+  color: #d4d4d4;
+  margin: 0;
+}
