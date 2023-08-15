@@ -1,5 +1,7 @@
-export default function Header() {
-  let playerCount = 37;
+import getPlayerCount from "@/lib/getPlayerCount";
+
+export default async function Header() {
+  let playerCount = await getPlayerCount();
   return (
     <>
       <div id="HeaderBg">
@@ -147,7 +149,7 @@ export default function Header() {
           </a>
         </div>
         <div id="SearchPanel">
-          <form onclick="window.location = 'https://runescape.wiki/'">
+          <form onClick="window.location = 'https://runescape.wiki/'">
             <a href="https://runescape.wiki/">
               <span className="Button Button29" id="SearchButton">
                 <span>
@@ -171,10 +173,10 @@ export default function Header() {
         </div>
         <div id="PlayerCount">
           <p className="top">
-            <span>{playerCount}</span> people currently online
+            <span>{playerCount.count}</span> people currently online
           </p>
           <p className="bottom">
-            <span>{playerCount}</span> people currently online
+            <span>{playerCount.count}</span> people currently online
           </p>
         </div>
       </div>

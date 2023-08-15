@@ -2,48 +2,48 @@ export default function SocialFeed() {
   return (
     <div id="events">
       <div id="eventsInner">
-        <h3 class="Gradient">
-          <span class="G0">Discord</span>
-          <span class="G1" aria-hidden="true">
+        <h3 className="Gradient">
+          <span className="G0">Discord</span>
+          <span className="G1" aria-hidden="true">
             Discord
           </span>
-          <span class="G2" aria-hidden="true">
+          <span className="G2" aria-hidden="true">
             Discord
           </span>
-          <span class="G3" aria-hidden="true">
+          <span className="G3" aria-hidden="true">
             Discord
           </span>
-          <span class="G4" aria-hidden="true">
+          <span className="G4" aria-hidden="true">
             Discord
           </span>
-          <span class="G5" aria-hidden="true">
+          <span className="G5" aria-hidden="true">
             Discord
           </span>
-          <span class="G6" aria-hidden="true">
+          <span className="G6" aria-hidden="true">
             Discord
           </span>
-          <span class="mask">
-            <span class="spacing">Discord</span>
-            <span class="middleUnderscore">
-              <span class="spacing" aria-hidden="true">
+          <span className="mask">
+            <span className="spacing">Discord</span>
+            <span className="middleUnderscore">
+              <span className="spacing" aria-hidden="true">
                 Discord
               </span>
             </span>
           </span>
-          <span class="rightUnderscore">
+          <span className="rightUnderscore">
             <img
               src="https://raw.githubusercontent.com/JesseGuerrero/web-files-darkan/master/2012/underscore_right.webp"
-              class="right"
+              className="right"
               alt=""
             />
-            <span class="spacing" aria-hidden="true">
+            <span className="spacing" aria-hidden="true">
               Discord
             </span>
           </span>
-          <span class="leftUnderscore">
+          <span className="leftUnderscore">
             <img
               src="https://raw.githubusercontent.com/JesseGuerrero/web-files-darkan/master/2012/underscore_flourish_left.webp"
-              class="left"
+              className="left"
               alt=""
             />
           </span>
