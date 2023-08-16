@@ -1,8 +1,15 @@
+import Image from "next/image";
+import prevButton from "@/public/Images/prev-button.webp";
+import banner1 from "@/public/Images/pen7KIN.webp";
+
+import styles from "@/components/styles/community-63.css";
+
 import Header from "../components/header.jsx";
 import Footer from "../components/footer.jsx";
 import IndexNewsArticles from "@/components/indexNewsArticles.jsx";
 import SocialFeed from "@/components/socialFeed.jsx";
 
+//passport
 export default function Home() {
   return (
     <>
@@ -11,7 +18,6 @@ export default function Home() {
         type="text/javascript"
         src="/javascripts/jagex_form-4.js"
       ></script>
-      <link async href="/styles/community-63.css" rel="stylesheet" />
       <script
         defer
         src="/javascripts/community.js"
@@ -29,14 +35,14 @@ export default function Home() {
                   className="HoverImg"
                   onClick="previousBanner()"
                 >
-                  <img src="https://raw.githubusercontent.com/JesseGuerrero/web-files-darkan/master/2012/prev-button.webp" />
+                  <Image src={prevButton} alt="Previous button" />
                 </a>
                 <div id="bannerReel">
                   <a>
-                    <img
+                    <Image
                       id="banner1"
-                      src="https://raw.githubusercontent.com/JesseGuerrero/web-files-darkan/master/2012/pen7KIN.webp"
-                      alt=""
+                      src={banner1}
+                      alt="Banner one"
                       title=""
                     />
                   </a>

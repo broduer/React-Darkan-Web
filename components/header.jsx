@@ -1,7 +1,7 @@
 import getPlayerCount from "@/lib/getPlayerCount";
 
-export default async function Header() {
-  let playerCount = await getPlayerCount();
+export default function Header() {
+  let playerCount = 77;
   return (
     <>
       <div id="HeaderBg">

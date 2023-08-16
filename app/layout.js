@@ -1,6 +1,7 @@
-import { Inter } from "next/font/google";
-
-const inter = Inter({ subsets: ["latin"] });
+import globalStyles from "@/components/styles/global-68.css";
+import jQuery1 from "@/components/styles/jquery_jscrollpane_css_2_0_0b11-0.css";
+import shadowBox from "@/components/styles/shadowbox-0.css";
+import fonts from "@/components/styles/fonts.css";
 
 export default function RootLayout({ children }) {
   return (
@@ -13,20 +14,6 @@ export default function RootLayout({ children }) {
     >
       <head>
         <meta name="viewport" content="width=device-width" />
-        <link href="/styles/fonts.css" rel="stylesheet" />
-        <link
-          async
-          type="text/css"
-          rel="stylesheet"
-          href="/styles/jquery_jscrollpane_css_2_0_0b11-0.css"
-        />
-        <link async href="/styles/global-68.css" rel="stylesheet" />
-        <link
-          async
-          rel="stylesheet"
-          type="text/css"
-          href="/styles/shadowbox-0.css"
-        />
         <script
           defer
           type="text/javascript"

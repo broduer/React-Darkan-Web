@@ -394,3 +394,10 @@ var templates = {
     },
 
     singleLineActivities = [ 'CreateEvent', 'DeleteEvent', 'FollowEvent', 'ForkEvent', 'GistEvent', 'MemberEvent', 'WatchEvent' ];
+
+    GitHubActivity.feed({
+        username: "DarkanRS",
+        repository: "world-server",
+        selector: "#TwitterFeedHolder",
+        limit: 8,
+    });
